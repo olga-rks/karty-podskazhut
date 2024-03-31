@@ -6,4 +6,4 @@
 - подсказку.  
    
     
-Адрес проекта в интернет: *[Надо сделать идеально](https://github.com/olga-rks/karty-podskazhut.git)*.  
+Адрес проекта в интернет: *[Карты подскажут](https://github.com/olga-rks/karty-podskazhut.git)*.  
