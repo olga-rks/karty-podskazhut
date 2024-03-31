@@ -72,6 +72,15 @@ figure {
   margin-bottom: 0;
 }
 
+.content__text-block_type_first-lettered .content__paragraph:first-child::first-letter {
+  background-color: var(--accent-color);
+  font-size: 30px;  
+  font-weight: 700;
+  line-height: 1.2em;
+  padding: 0 4px;
+  margin: 0 6px 0 0;
+}
+
 .content__link {
   cursor: pointer;
   color: currentColor;
