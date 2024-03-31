@@ -32,6 +32,15 @@ figure {
   margin: 0;
 }
 
+.header {
+  padding-top: 10%;
+}
+
+.header__title {
+  font-size: clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem);
+  margin-bottom: 40px;
+}
+
 .heading {
   font-family: var(--accent-font);
   line-height: .9em;
@@ -39,9 +48,15 @@ figure {
   text-align: center;
 }
 
-.theme_dark {}
-.header {}
 .content {}
+
+.content__title {
+  font-size: 30px;
+  margin: 7% 0 2.5%;
+}
+
+.theme_dark {}
+
 .content-section {
   padding: 0 5vi;
 }
