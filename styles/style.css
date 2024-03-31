@@ -77,5 +77,44 @@ figure {
   color: currentColor;
   text-decoration: underline;
 }
+
+.content__blockquote {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2em;
+  font-style: italic;
+  padding: 0 0 1.5em;
+  width: 75%;
+  margin: auto;
+}
+
+.content__list {
+  list-style-type: none;
+  padding-inline-start: 40px;
+}
+
+.content__list-item {
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.content__list-item:last-of-type {
+  padding-bottom: 0;
+}
+
+.content__list-item::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/marker-light.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 3px;
+  left: -25px;
+}
+
 .theme_dark {}
+
 .footer {}
