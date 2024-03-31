@@ -50,14 +50,32 @@ figure {
 
 .content {}
 
+.content-section {
+  padding: 0 5vi;
+}
+
 .content__title {
   font-size: 30px;
   margin: 7% 0 2.5%;
 }
 
-.theme_dark {}
-
-.content-section {
-  padding: 0 5vi;
+.content__text-block {
+  font-size: 18px;
 }
+.content__paragraph {}
+
+.content__text-block .content__paragraph {
+  margin: 0 0 1.5em;
+}
+
+.content__text-block .content__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.content__link {
+  cursor: pointer;
+  color: currentColor;
+  text-decoration: underline;
+}
+.theme_dark {}
 .footer {}
