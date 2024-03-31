@@ -81,6 +81,26 @@ figure {
   margin: 0 6px 0 0;
 }
 
+.content__figure {
+  margin: 7% 0;
+  width: calc(100% + 10vi);
+  position: relative;
+  margin-left: -5vi;
+}
+
+.content__picture-caption {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #312A4E;
+}
+
+.content__picture {
+  width: 100%;
+}
+
 .content__link {
   cursor: pointer;
   color: currentColor;
