@@ -4,7 +4,7 @@
   --accent-color: #FFAB6B;
   --main-font: Raleway;
   --accent-font: 'STIX Two Text';
-  --rgb: 49, 42, 78;
+  --opacity: rgba(49, 42, 78, .5);
 }
 
 *,
@@ -27,7 +27,7 @@
   --bg-color: #171717;
   --text-color: #B3B3B3;
   --accent-color: transparent;
-  --rgb: 179, 179, 179;
+  --opacity: rgba(179, 179, 179, .5);
 }
 
 p,
@@ -106,11 +106,11 @@ a:focus {
 }
 
 .header__theme-button:hover {
-  border-bottom: 1px solid rgba(var(--rgb, rgb(49, 42, 78)), 0.5);
+  border-bottom: 1px solid var(--opacity, rgba(49, 42, 78, .5));
 }
 
 .theme_dark .header__theme-button:hover {
-  border-bottom: 1px solid rgba(var(--rgb, rgb(179, 179, 179)), 0.5);
+  border-bottom: 1px solid var(--opacity, rgba(179, 179, 179, .5));
 }
 
 .header__theme-button:focus-visible {
@@ -212,11 +212,11 @@ a:focus {
 }
 
 .content__link:hover {
-  border-bottom-color: rgba(var(--rgb, rgb(49, 42, 78)), 0.5);
+  border-bottom-color: var(--opacity, rgba(49, 42, 78, .5));
 }
 
 .theme_dark .content__link:hover {
-  border-bottom-color: rgba(var(--rgb, rgb(179, 179, 179)), 0.5);
+  border-bottom-color: var(--opacity, rgba(179, 179, 179, .5));
 }
 
 .content__link:focus-visible {
